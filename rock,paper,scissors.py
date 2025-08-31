@@ -1,3 +1,17 @@
+"""
+Rock Paper Scissors Game
+========================
+A simple GUI game using Python's Tkinter library.
+
+To run this game:
+1. Ensure Python 3.x is installed on your system
+2. Run: python rock_paper_scissors.py
+3. Click Rock, Paper, or Scissors to play!
+
+Requirements: Python 3.x with tkinter (included in most Python installations)
+"""
+
+
 import tkinter as tk
 import random
 
@@ -109,3 +123,4 @@ exit_btn.grid(row=0, column=1, padx=15)
 
 # Run window
 root.mainloop()
+
